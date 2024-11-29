@@ -1,0 +1,36 @@
+/*
+Theme Name: Custom HTML Theme
+Theme URI: https://example.com
+Author: Your Name
+Description: A custom WordPress theme with ACF integration.
+Version: 1.0
+*/
+
+.main-navigation {
+    background-color: #f8f9fa;
+    padding: 10px;
+}
+
+.header-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+    gap: 20px;
+}
+
+.header-menu li {
+    display: inline;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.header-menu li a:hover {
+    color: #007bff;
+}
+
